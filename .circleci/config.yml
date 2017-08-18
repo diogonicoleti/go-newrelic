@@ -6,7 +6,6 @@ jobs:
     working_directory: ~/code
     steps:
       - checkout
-      - run: mkdir -p $TEST_RESULTS
       - run: go get github.com/golang/lint/golint
       - run:
           name: Run linting
