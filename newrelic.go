@@ -11,10 +11,12 @@ type Client struct {
 	key string
 }
 
+// DeploymentInput is passed the REST client to register a deployment.
 type DeploymentInput struct {
 	Deployment Deployment `json:"deployment"`
 }
 
+// Deployment contains the parameters for registering a deployment.
 type Deployment struct {
 	Revision    string `json:"revision"`
 	Changelog   string `json:"changelog"`
