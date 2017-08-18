@@ -9,4 +9,4 @@ jobs:
       - run: go get github.com/golang/lint/golint
       - run:
           name: Run linting
-          command: cd workspace && make lint
+          command: make lint
