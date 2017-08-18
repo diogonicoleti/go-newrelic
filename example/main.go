@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/previousnext/skipper/api/newrelic"
+	"github.com/previousnext/go-newrelic"
 )
 
 var (
